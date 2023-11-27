@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("zyro-image.png");
+    background-size: cover;
+    object-fit: cover;
+    background-position: top right;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 100px 0 0 20px;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 700px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.item {
+    width: 600px;
+    background-color: #24292e;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.quest {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.button{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #686868;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: "Rage Italic", sans-serif;
+}
+.answer {
+    display: none;
+}
+.button_hide {
+    display: none;
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.color {
+    background-color: #d82020;
+}
+.look {
+    display: inline;
+}
+p, span{
+    color: white;
+}
